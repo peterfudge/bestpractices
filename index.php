@@ -55,7 +55,7 @@
  */
     $server = $_SERVER['HTTP_HOST'];
     switch ($_SERVER['HTTP_HOST']) {
-        case 'locahost':
+        case 'localhost':
             $env = 'development';
          break;
 
