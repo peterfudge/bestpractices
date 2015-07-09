@@ -62,9 +62,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $active_group = 'default';
 $query_builder = TRUE;
 // PDO
-$db['default']['dsn'] = 'pgsql:host=localhost;port=5432;dbname=database_name';
+$db['default']['dsn'] = 'odbc:Driver={Microsoft Visual Foxpro Driver};SourceType=DBC;SourceDB=\\\harvey2\sbt\pro32\xrepairs.dbc;Exclusive=No';
 
 
+
+//$db['default']['dsn'] = 'pgsql:host=localhost;port=5432;dbname=database_name';z
 //$db['default'] = array(
 //	'dsn'	=> '',
 //	'hostname' => 'localhost',
