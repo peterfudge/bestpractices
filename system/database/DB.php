@@ -87,7 +87,7 @@ function &DB($params = '', $query_builder_override = NULL)
 			show_error('No database connection settings were found in the database config file.');
 		}
 
-		if ($params !== '')
+        if ($params !== '')
 		{
 			$active_group = $params;
 		}
