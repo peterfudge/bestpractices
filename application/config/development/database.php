@@ -61,8 +61,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 $active_group = 'default';
 $query_builder = TRUE;
+// PDO
+$db['default']['dsn'] = 'pgsql:host=localhost;port=5432;dbname=database_name';
 
-$db['default'] = array(
+
+//$db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
 	'username' => '',
